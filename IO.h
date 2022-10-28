@@ -1,12 +1,3 @@
-/*****************************************************************************************
-/* File: IO.h
-/* Desc: Class for handling inpung & drawing, it uses SDL for the rendering. Change the methods of this class
-/*       in order to use a different renderer
-/*
-/* gametuto.com - Javier López López (javilop.com)
-/*
-/*****************************************************************************************/
-
 #ifndef _IO_
 #define _IO_
 
