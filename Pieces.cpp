@@ -1,17 +1,9 @@
-/*****************************************************************************************
-/* File: Pieces.cpp
-/* Desc: All the Tetris pieces with their respective rotations and displacements for the hotspot
-/*
-/* gametuto.com - Javier López López (javilop.com)
-/*
-/*****************************************************************************************/
-
 // ----- Includes -----
 
 #include "Pieces.h"
 
 // Pieces definition
-char mPieces [7 /*kind */ ][4 /* rotation */ ][5 /* horizontal blocks */ ][5 /* vertical blocks */ ] =
+char mPieces [8 /*kind */ ][4 /* rotation */ ][5 /* horizontal blocks */ ][5 /* vertical blocks */ ] =
 {
 // Square
   {
@@ -229,6 +221,37 @@ char mPieces [7 /*kind */ ][4 /* rotation */ ][5 /* horizontal blocks */ ][5 /* 
     {0, 0, 1, 0, 0},
     {0, 1, 2, 1, 0},
     {0, 0, 0, 0, 0},
+    {0, 0, 0, 0, 0}
+    }
+   },
+// +
+  {
+   {
+    {0, 0, 0, 0, 0},
+    {0, 0, 1, 0, 0},
+    {0, 1, 2, 1, 0},
+    {0, 0, 1, 0, 0},
+    {0, 0, 0, 0, 0}
+    },
+   {
+    {0, 0, 0, 0, 0},
+    {0, 0, 1, 0, 0},
+    {0, 1, 2, 1, 0},
+    {0, 0, 1, 0, 0},
+    {0, 0, 0, 0, 0}
+    },
+   {
+    {0, 0, 0, 0, 0},
+    {0, 0, 1, 0, 0},
+    {0, 1, 2, 1, 0},
+    {0, 0, 1, 0, 0},
+    {0, 0, 0, 0, 0}
+    },
+   {
+    {0, 0, 0, 0, 0},
+    {0, 0, 1, 0, 0},
+    {0, 1, 2, 1, 0},
+    {0, 0, 1, 0, 0},
     {0, 0, 0, 0, 0}
     }
    }
